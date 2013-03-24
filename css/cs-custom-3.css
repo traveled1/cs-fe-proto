@@ -2,5 +2,7 @@
 
 .hero-unit {
 	background-color: white;
+	border: 1px solid #aaa; 
+	box-shadow: 4px 5px 5px #aaa;
 }
 
