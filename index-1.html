@@ -4,21 +4,21 @@
     <meta charset="utf-8">
     <title>Bootstrap 101: Customize Fonts &amp; Colors</title>
 
-    <meta name="description" content="Sample files for a tutorial on customizing Bootstrap typography and colors">
-    <meta name="author" content="David Cochran for webdesign.tutsplus.com">
+    <meta name="description" content="Need more description here">
+    <meta name="author" content="Ed Komo for ClipSmarter">
 
     <!-- Mobile viewport optimized: h5bp.com/viewport -->
     <meta name="viewport" content="width=device-width">
 
     <!-- Google Webfonts -->
-    <link href='http://fonts.googleapis.com/css?family=ABeeZee:400,400italic|Anton' rel='stylesheet' type='text/css'>
-
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+		
     <!-- Le styles -->
     <link href="css/bootstrap-custom-3.css" rel="stylesheet">
 		<link href="css/cs-custom-3.css" rel="stylesheet">
     <style type="text/css">
       body {
-        padding-top: 80px;
+/*        padding-top: 50px; */
         padding-bottom: 40px;
       }
       hgroup h1, hgroup h2, hgroup h3 {
@@ -49,8 +49,21 @@
 
   <body>
 		
-		<div class="row">
-		</div>
+			<div id="stripheader1" class="row"> 
+					<img id="headercslogo" src="img/nunitologo-200x38.png" alt="GoSmartr Logo">
+					<span id="cs-tagline"> Beta </span>
+					<a href="#">How It Works</a>
+					<a href="#">Submit a Coupon</a>
+					<a href="#">My Account</a>
+					<a href="#">Sign Up</a>
+					<a href="#">Refer Friends</a>
+					<span id="headersocial">
+						<a href="#" class="fb"> <img src="img/facebook.png"></a>
+						<a href="#" class="tw"><img src="img/twitter.png"></a>
+					</span>
+			</div>
+
+				
 
     <div class="navbar">
       <div class="navbar-inner">
@@ -60,26 +73,44 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="index.html">ClipSmarter <img src="img/glyphicons_288_scissors.png" height="14" width="14">  </a>
+<!--          <a class="brand" href="index.html">ClipSmarter <img src="img/glyphicons_288_scissors.png" height="14" width="14">  </a> -->
           <div class="nav-collapse">
             <ul class="nav nav-pills pull-right">
-              <li class="active"><a href="index.html">Welcome</a></li>
-              <li><a href="carousel.html">Carousel</a></li>
-		         	<li><a href="tabs-pills.html">Tabs &amp; Pills</a></li>
+              <li><a href="#">Top Coupons/Deals</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                  Dropdown
+                  Browse Stores
                   <b class="caret"></b>
                 </a>
                 <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">Item 1</a></li>
-                  <li><a href="#">Item 2</a></li>
-                  <li><a href="#">Item 3</a></li>
+                  <li><a href="#">By Category</a></li>
+                  <li><a href="#">Alphabetically</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  My Clip Deals
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">50% off Gap Kids</a></li>
+                  <li><a href="#">$9.95 GoDaddy Domain</a></li>
+								  <li class="divider"></li>
+                  <li><a href="#">See all ...</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  My Favorite Stores
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Gap</a></li>
+                  <li><a href="#">One Kings Lane</a></li>
                 </ul>
               </li>
 		        </ul>
-		        	<a class="btn btn-primary pull-right" href="#"><b class="icon-home"></b> Home</a>
-          </div><!--/.nav-collapse --><a href="index.html" id="" title="index">what</a>
+          </div><!--/.nav-collapse -->
         </div>
       </div>
     </div>
@@ -103,9 +134,28 @@
       <hr>
 
 
-      <footer>
-        <a class="btn btn-link" href="#">About Us</a>
-      </footer>
+      <div class="footer">
+				<div class="span1">
+				</div>
+				<div class="span3">
+					<a class="footer-header" href="#">Help</a><br>
+        	<a href="#">Use a Coupon</a><br>
+        	<a href="#">Submit a Coupon</a><br>
+        	<a href="#">Manage Your Account</a>		
+				</div>		
+				<div class="span3">
+					<a class="footer-header" href="#">Contact Us</a><br>
+        	<a href="#">Customer Support</a><br>
+        	<a href="#">Advertise with Us</a><br>
+        	<a href="#">Media Relations</a>		
+				</div>		
+				<div class="span3">
+					<a class="footer-header" href="#">About Us</a><br>
+        	<a href="#">Our History</a><br>
+        	<a href="#">Our Team</a><br>
+        	<a href="#">Press</a><br>
+				</div>		
+			</div>
 
 
     </div> <!-- /container -->
