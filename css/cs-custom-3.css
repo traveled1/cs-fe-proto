@@ -12,16 +12,14 @@
 
 #stripheader1 {
 	height: 50px;
-	font-size: 0.9em;
 	padding: 10px 30px 0 0;
 	text-align: right;
 }
 
 #stripheader1 a {
-	font-size: 13px;
-  font-family: "Helvetica Neu", helvetica, sans-serif; 
+	font-size: 14px;
 	margin: 0px 16px 0 0;
-	color: #767;
+	color: #655;
 }
 
 #headercslogo {
@@ -45,14 +43,14 @@
 
 .footer {
 		text-align: center;
+		margin: 20px 0 10px 0;
 }
 
 
 .footer a {
-	margin: 0 auto 0 40px;
+	margin: 0 auto 0 0px;
 	font-size: 13px;
-	color: #767	;
-  font-family: "Helvetica Neu", helvetica, sans-serif; 
+	color: #655	;
 	
 }
 
@@ -61,3 +59,213 @@
 	font-weight: bold;
 	color: #545;
 }
+
+
+/**********************************/
+/* for page curling only       ****/
+
+.page-curl {
+	-moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+	position: relative;
+	
+}
+
+.page-curl:before, .page-curl:after {
+	background: none;
+	bottom: 12px;
+	-moz-box-shadow: 0 10px 12px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 10px 12px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 10px 12px rgba(0, 0, 0, 0.5);
+	content: "";
+	height: 10px;
+	left: 12px;
+	position: absolute;
+	width: 40%;
+	z-index: -1;
+	-moz-transform: skew(-4deg) rotate(-4deg);
+	-webkit-transform: skew(-4deg) rotate(-4deg);
+	transform: skew(-4deg) rotate(-4deg);
+}
+
+.page-curl:after {
+	-moz-transform: skew(4deg) rotate(4deg);
+	-webkit-transform: skew(4deg) rotate(4deg);
+	transform: skew(4deg) rotate(4deg);
+	left: auto;
+	right: 12px;
+}
+
+.page-curl.shadow-left {
+	background: -moz-linear-gradient(0deg, #F5F5F5 0%, #FFF 50%) !important;
+	background: -ms-linear-gradient(0deg, #F5F5F5 0%, #FFF 50%) !important;
+	background: -webkit-linear-gradient(0deg, #F5F5F5 0%, #FFF 50%) !important;
+	background: linear-gradient(0deg, #F5F5F5 0%, #FFF 50%) !important;
+}
+
+.page-curl.shadow-right {
+	background: -moz-linear-gradient(0deg, #FFF 50%, #F5F5F5 100%) !important;
+	background: -ms-linear-gradient(0deg, #FFF 50%, #F5F5F5 100%) !important;
+	background: -webkit-linear-gradient(0deg, #FFF 50%, #F5F5F5 100%) !important;
+	background: linear-gradient(0deg, #FFF 50%, #F5F5F5 100%) !important;
+}
+
+.shadow-bottom:before, .shadow-bottom:after {
+	top: auto;
+	bottom: 5px;
+	-moz-box-shadow: 0 10px 12px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 10px 12px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.5);
+}
+
+.shadow-left:after {
+	display: none;
+}
+
+.shadow-right:before {
+	display: none;
+}
+
+.shadow-top-bottom.shadow-left:after {
+	display: block;
+	bottom: auto;
+	top: 15px;
+	right: auto;
+	left: 12px;
+	-moz-box-shadow: 0 -10px 12px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 -10px 12px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 -10px 12px rgba(0, 0, 0, 0.5);
+}
+
+.shadow-top-bottom.shadow-right:before {
+	display: block;
+	bottom: auto;
+	top: 15px;
+	right: 12px;
+	left: auto;
+	-moz-box-shadow: 0 -10px 12px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 -10px 12px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 -10px 12px rgba(0, 0, 0, 0.5);
+}
+
+
+/*******************************************/
+/****  for Company Deal page         *******/
+
+.cpn-desc {
+	font-size: 13px;
+	margin: 0 0 0 5px;
+	/*
+	float: right;
+	max-width: 280px;
+*/
+}
+
+.cpn-clip {
+	background: #FFFFFF;
+	background: -moz-linear-gradient(0deg, #F5F5F5 0%, #FFF 25%, #FFF 75%, #F5F5F5 100%);
+	background: -ms-linear-gradient(0deg, #F5F5F5 0%, #FFF 25%, #FFF 75%, #F5F5F5 100%);
+	background: -webkit-linear-gradient(0deg, #F5F5F5 0%, #FFF 25%, #FFF 75%, #F5F5F5 100%);
+	background: linear-gradient(0deg, #F5F5F5 0%, #FFF 25%, #FFF 75%, #F5F5F5 100%);
+	border: 1px dashed #ccc; 
+	-moz-border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	border-radius: 3px;
+
+	margin: 15px 0px 20px 35px;
+	padding: 5px 10px 10px 10px;
+	color: #555;
+}
+
+
+.cpn-row {
+	margin: 0px auto 0px auto;
+	clear: both;
+}
+
+
+.does-it-work {
+	font-size: 12px;
+	font-weight: bold;
+	background: #eda;
+	border: 1px solid #aaa;
+	float: left;
+	-moz-border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	border-radius: 5px;
+	padding: 2px 2px 2px 2px;
+	text-align: center;
+	margin: 2px 20px 10px 10px;
+
+	-moz-box-shadow: 0 10px 12px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 10px 12px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 5px 7px rgba(0, 0, 0, 0.5);
+}
+
+.does-it-work-btn-container {
+	margin: 0px 0px 0px 0px;
+	padding: 0;
+	
+}
+
+.does-it-work-btn {
+	width: 22px;
+	margin: 0;
+	float: left;
+	
+}
+
+.does-it-work hr{
+	border: 0;
+	height: 1px;
+	background: #777;
+  background-image: -webkit-linear-gradient(left, #ccc, #777, #ccc); 
+  background-image:    -moz-linear-gradient(left, #ccc, #777, #ccc); 
+  background-image:     -ms-linear-gradient(left, #ccc, #777, #ccc); 
+  background-image:      -o-linear-gradient(left, #ccc, #777, #ccc); 
+	margin: 5px 0 3px 0;
+}
+
+.does-it-work-rating {
+	font-size: 18px;
+	color: #575;
+	font-weight: bold;
+}
+
+.does-it-work-success {
+	font-size: 13px;
+	color: #575;
+	font-weight: bold;
+	
+}
+
+.section-header {
+	font-family: "Georgia", "Times New Roman", times;
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+	margin: 10px auto 10px auto;
+	text-align: center;
+	color: #555;
+}
+
+.cpn-activate {
+	float: right;
+}
+
+.last-used {
+	font-size: 12px;
+	margin: 10px 0 0 0;
+}
+
+hr{
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	margin: 15px 0 15px 0;
+}
+
