@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Bootstrap 101: Customize Fonts &amp; Colors</title>
+
+  <meta name="description" content="Need more description here">
+  <meta name="author" content="Ed Komo for ClipSmarter">
+
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Google Webfonts -->
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+
+  <!-- Le styles -->
+  <link href="css/bootstrap-custom-3.css" rel="stylesheet">
+  <link href="css/cs-custom-3.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="turn/turn.css">
+
+  <style type="text/css">
+    body {
+      /*        padding-top: 50px; */
+      padding-bottom: 40px;
+    }
+
+    hgroup h1, hgroup h2, hgroup h3 {
+      line-height: 1.1;
+    }
+
+    hgroup h1 small {
+      margin-top: 6px;
+      line-height: 1.5;
+      display: block;
+    }
+  </style>
+  <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+
+  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- Le fav and touch icons -->
+  <!-- Commented out - update these with your own files -->
+  <!--
+    <link rel="shortcut icon" href="ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+  -->
+
+<body>
+
+<div id="stripheader1" class="row">
+  <img id="headercslogo" src="img/nunitologo-200x38.png" alt="GoSmartr Logo">
+  <span id="cs-tagline"> Beta </span>
+  <a href="#">How It Works</a>
+  <a href="#">Submit a Coupon</a>
+  <a href="#">My Account</a>
+  <a href="#">Sign Up</a>
+  <a href="#">Refer Friends</a>
+					<span id="headersocial">
+						<a href="#" class="fb"> <img src="img/facebook.png"></a>
+						<a href="#" class="tw"><img src="img/twitter.png"></a>
+					</span>
+</div>
+
+
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <!--          <a class="brand" href="index.html">ClipSmarter <img src="img/glyphicons_288_scissors.png" height="14" width="14">  </a> -->
+      <div class="nav-collapse">
+        <ul class="nav nav-pills pull-right">
+          <li><a href="#">Top Coupons/Deals</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              Browse Stores
+              <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">By Category</a></li>
+              <li><a href="#">Alphabetically</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              My Clip Deals
+              <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">50% off Gap Kids</a></li>
+              <li><a href="#">$9.95 GoDaddy Domain</a></li>
+              <li class="divider"></li>
+              <li><a href="#">See all ...</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              My Favorite Stores
+              <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Gap</a></li>
+              <li><a href="#">One Kings Lane</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+
+  <div id="store-hero-section">
+    <div id="store-hero-carousel" class="carousel slide">
+      <ol class="carousel-indicators">
+        <li data-target="#store-hero-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#store-hero-carousel" data-slide-to="1"></li>
+        <li data-target="#store-hero-carousel" data-slide-to="2"></li>
+      </ol>
+      <!-- Carousel items -->
+      <div class="carousel-inner">
+        <div class="active item">
+          <img src="img/store/bbby-bedroom-design-1.jpeg" alt="">
+
+          <div class="carousel-caption">
+            <h4>Bed Bath and Beyond</h4>
+
+            <p>If you love your home, BBBY is your ultimate source for the chic to warm home furniture and accessories, from bedrooms to kitchen.</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/store/bbby-bedroom-design-2.jpeg" alt="">
+
+          <div class="carousel-caption">
+            <h4>Bed Bath and Beyond</h4>
+
+            <p>If you love your home, BBBY is your ultimate source for the chic to warm home furniture and accessories, from bedrooms to kitchen.</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/store/bbby-bedroom-silverware-1.jpeg" alt="">
+
+          <div class="carousel-caption">
+            <h4>Bed Bath and Beyond</h4>
+
+            <p>If you love your home, BBBY is your ultimate source for the chic to warm home furniture and accessories, from bedrooms to kitchen.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Carousel nav -->
+      <a class="carousel-control left" href="#store-hero-carousel" data-slide="prev">&lsaquo;</a>
+      <a class="carousel-control right" href="#store-hero-carousel" data-slide="next">&rsaquo;</a>
+
+    </div>
+  </div>
+
+  <!-- old store hero
+<div id="store-hero-section" class="row border-overlay">
+        <div class="store-hero-logo span2">
+            <img src="img/bed_bath_beyond.jpg">
+        </div>
+        <div class="store-hero-desc span6 short-text">
+    Bed Bath & Beyond Inc., together with its subsidiaries, operates a chain of retail stores. It sells a range of domestic merchandise, such as bed linens and related items, bath items, and kitchen textiles; and home furnishings, including kitchen and tabletop items, fine tabletop, basic housewares, general home furnishings, consumables, and certain juvenile products. The company also offers giftware, household products, and health and beauty care items; and infant and toddler merchandise. Bed Bath & Beyond Inc. operates stores under the names of Bed Bath & Beyond (BBB), Christmas Tree Shops (CTS), Harmon and Harmon Face Values (Harmon), and buybuy BABY. In addition, it distributes textile products, amenities, and other goods to customers in the hospitality, cruise line, food service, healthcare, and other industries. As of November 24, 2012, the company had 1,466 stores, including 1,003 Bed Bath & Beyond stores; 264 stores under the names of World Market, Cost Plus World Market, or World Market Stores; 74 stores under the names of Christmas Tree Shops or andThat!; 78 buybuy BABY stores; and 47 stores under the names of Harmon or Harmon Face Values in 50 states, the District of Columbia, Puerto Rico, and Canada. Bed Bath & Beyond Inc. was founded in 1971 and is headquartered in Union, New Jersey.
+        </div>
+        <span class="show-more">
+        <a href="#">Show more</a>
+            </span>
+
+</div> <!--store-hero-section -->
+
+  <div class="section-header">
+    Popular Coupons and Sales
+    <hr>
+  </div>
+
+  <div class="row cpn-row">
+    <div class="span5 page-curl shadow-bottom cpn-clip">
+      <h4 class="cpn-title">20% Additional Discount on Clearance Items - Today Only</h4>
+
+      <div class="does-it-work">
+        <div class="does-it-work-rating">
+          75%
+        </div>
+        <div class="does-it-work-success">
+          SUCCESS
+        </div>
+        <hr>
+        <div> Did it work?</div>
+        <div class="does-it-work-btn-container">
+          <a class="btn btn-mini btn-success does-it-work-btn"><i class="icon-thumbs-up"></i> </a><a
+                class="btn btn-mini btn-danger does-it-work-btn"> <i class="icon-thumbs-down"></i> </a>
+        </div>
+      </div>
+      <div class="cpn-desc">Bed Bath and Beyond: 20% Off Any Single Item In Store When You Sign Up for Emails. Bed
+        Bath & Beyond will send you an email with a printable coupon to use in store.
+      </div>
+
+      <div class="last-used">
+        Last used 1 hr ago
+      </div>
+      <a id="clip-this-1" class="btn btn-large btn-primary cpn-activate" rel="popover"
+         data-content='<i class="icon-remove"></i><div class="clip-popup-title">Clip This Coupon and Go to the Store </div> <hr> <div> It is simple content for now </div> <div> It is simple content for now line 2 line 2 line 2 line 2 line 2 line 2 </div> <a class="btn btn-small btn-info" href="http://www.gap.com" target="_blank">Clip This!</a>'
+         data-original-title="">Clip This!</a>
+
+      <!-- simple Clip This! button to open new window
+                                  <a class="btn btn-large btn-primary cpn-activate" href="http://www.gap.com" target="_blank">Clip This!</a>
+      -->
+      <!--	If want to force a Pop-up window instead via JavaScript
+<A class="btn btn-large btn-primary cpn-activate" HREF="http://www.gap.com" onClick="popup = window.open('http://www.gap.com', 'PopupPage', 'scrollbars=yes,resizable=yes'); return false" target="_blank">Clip This!</a> -->
+
+      <div class="sharing">
+								<span>
+									Share It:
+		 							<a href="#"> <img src="img/envelope-icon-black.png" alt="Email to friends"></a>
+		 							<a href="#"> <img src="img/facebook-icon-black.png"
+                                     alt="Share with Facebook friends"></a>
+		 							<a href="#"><img src="img/twitter-icon-black.png" alt="Tweet it on Twitter"></a>
+								</span>
+        &nbsp; &nbsp;
+								<span>
+									Save It:
+									<a href="#"> <img src="img/floppy-black.png" alt="Save For Later"></a>
+      </div>
+
+
+    </div>
+    <div class="span5 page-curl shadow-bottom cpn-clip">
+      <h4>20% Additional Discount on Clearance Items</h4>
+
+      <div class="span4 cpn-desc">Bed Bath and Beyond: 20% Off Any Single Item In Store When You Sign Up for
+        Emails. Bed Bath & Beyond will send you an email with a printable coupon to use in store.
+      </div>
+    </div>
+  </div>
+  <!-- Cpn-row -->
+
+  <div class="row cpn-row">
+    <div class="span5 page-curl shadow-bottom cpn-clip">
+      <h4>20% Additional Discount on Clearance Items</h4>
+
+      <div class="cpn-desc">Bed Bath and Beyond: 20% Off Any Single Item In Store When You Sign Up for Emails. Bed
+        Bath & Beyond will send you an email with a printable coupon to use in store.
+      </div>
+    </div>
+    <div class="span5 page-curl shadow-bottom cpn-clip">
+      <h4>20% Additional Discount on Clearance Items</h4>
+
+      <div class="cpn-desc">Bed Bath and Beyond: 20% Off Any Single Item In Store When You Sign Up for Emails. Bed
+        Bath & Beyond will send you an email with a printable coupon to use in store.
+      </div>
+    </div>
+  </div>
+  <!-- Cpn-row -->
+
+  <div class="row cpn-row">
+    <div class="span5 page-curl shadow-bottom cpn-clip">
+      <h4>20% Additional Discount on Clearance Items</h4>
+
+      <div class="cpn-desc">Bed Bath and Beyond: 20% Off Any Single Item In Store When You Sign Up for Emails. Bed
+        Bath & Beyond will send you an email with a printable coupon to use in store.
+      </div>
+    </div>
+    <div class="span5 page-curl shadow-bottom cpn-clip">
+      <h4>20% Additional Discount on Clearance Items</h4>
+
+      <div class="cpn-desc">Bed Bath and Beyond: 20% Off Any Single Item In Store When You Sign Up for Emails. Bed
+        Bath & Beyond will send you an email with a printable coupon to use in store.
+      </div>
+    </div>
+  </div>
+  <!-- Cpn-row -->
+
+  <hr>
+
+</div>
+<!-- /container -->
+
+<div class="row footer">
+  <div class="span2">
+  </div>
+  <div class="span3">
+    <a class="footer-header" href="#">Help</a><br>
+    <a href="#">Use a Coupon</a><br>
+    <a href="#">Submit a Coupon</a><br>
+    <a href="#">Manage Your Account</a>
+  </div>
+  <div class="span3">
+    <a class="footer-header" href="#">Contact Us</a><br>
+    <a href="#">Customer Support</a><br>
+    <a href="#">Advertise with Us</a><br>
+    <a href="#">Media Relations</a>
+  </div>
+  <div class="span3">
+    <a class="footer-header" href="#">About Us</a><br>
+    <a href="#">Our History</a><br>
+    <a href="#">Our Team</a><br>
+    <a href="#">Press</a><br>
+  </div>
+</div>
+
+
+<!-- ==============================================
+		 JavaScript below! 															-->
+
+<!-- jQuery via Google + local fallback, see h5bp.com -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-1.9.1.js"><\/script>')</script>
+<!-- Bootstrap jQuery plugins compiled and minified -->
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery-ui-1.10.2.custom.js"></script>
+
+<!-- Main Java Script Area for this page -->
+<script>
+  $(function () {
+
+    /*
+     var isVisible = false;
+     var clickedAway = false;
+     */
+
+    $(".cpn-activate").popover({
+      trigger:'click',
+      placement:'top',
+      html:true,
+      template:'<div class="popover clip-popup"><div class="arrow"></div><div class="popover-inner"><h3 class="popover-title"></h3><div class="popover-content"><p></p></div></div></div>'
+    });
+
+    $(".cpn-activate").click(function (e) {
+      //      $(this).popover('show');
+      clickedAway = false;
+      isVisible = true;
+      e.preventDefault();
+    });
+
+    $(document).click(function (e) {
+      if (isVisible & clickedAway) {
+        $('.cpn-activate').popover('hide');
+        isVisible = clickedAway = false;
+      }
+      else {
+        clickedAway = true;
+      }
+    });
+
+    // For showing more or less text
+    $(".show-more a").click(function () {
+      var $link = $(this);
+      var $content = $link.parent().prev("div.store-hero-desc");
+      var linkText = $link.text().toUpperCase();
+      $link.text(getShowLinkText(linkText));
+      $content.toggleClass("short-text, full-text", 500);
+
+      //$("short-text").toggleClass("short-text", "full-text", 1000);
+      //$("full-text").switchClass("full-text","short-text", 1000);
+      return false;
+    });
+
+    function getShowLinkText(currentText) {
+      var newText = '';
+
+      if (currentText === "SHOW MORE") {
+        newText = "Show less";
+      } else {
+        newText = "Show more";
+      }
+
+      return newText;
+    }
+
+  });
+</script>
+</body>
+</html>

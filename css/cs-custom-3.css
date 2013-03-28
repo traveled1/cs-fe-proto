@@ -155,6 +155,22 @@
 
 /** for Company/Store Description  **/
 
+
+#store-hero-carousel {
+    width: 500px;
+    height: 300px;
+    border: 1px solid #aaa;
+    padding: 2px;
+}
+
+#store-hero-carousel img {
+    max-width: 100%;
+    max-height: 300px;
+}
+#store-hero-section {
+    height: 320px;
+}
+/*
 #store-hero-section {
 	border: 1px solid #ccc;
 	background: #fefefe; 
@@ -169,6 +185,7 @@
 	box-shadow: 4px 5px 5px #aaa;	
 }
 
+*/
 
 .store-hero-logo {
 }
@@ -283,6 +300,7 @@ hr{
 }
 
 .section-header {
+    clear: both;
 	font-family: "Georgia", "Times New Roman", times;
 	font-size: 30px;
 	font-weight: bold;

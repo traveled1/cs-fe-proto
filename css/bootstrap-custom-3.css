@@ -209,7 +209,9 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: #333333;
-  background-color: #f8f3ef; /* custom - currently set at different background */
+/*  background-color: #f8f7f5; custom snow-white color */
+
+  background-color: #f8f9f7; /* custom greenish - currently set at different background */
 }
 a {
   color: #0088cc;
@@ -3451,16 +3453,36 @@ input[type="submit"].btn.btn-mini {
   min-height: 40px;
   padding-left: 20px;
   padding-right: 20px;
-	/* custom starts */
+                	/* custom starts */
+    background-image: linear-gradient(top, #7C7D7D 3%, #484A49 39%);
+    background-image: -o-linear-gradient(top, #7C7D7D 3%, #484A49 39%);
+    background-image: -moz-linear-gradient(top, #7C7D7D 3%, #484A49 39%);
+    background-image: -webkit-linear-gradient(top, #7C7D7D 3%, #484A49 39%);
+    background-image: -ms-linear-gradient(top, #7C7D7D 3%, #484A49 39%);
+
+    background-image: -webkit-gradient(
+    	linear,
+    	left top,
+    	left bottom,
+    	color-stop(0.03, #7C7D7D),
+    	color-stop(0.39, #484A49)
+    );
+    border: 3px double #aaa;
+
+    /* custom ends */
+
+	/* old custom starts
   background-color: #856a68;
-  background-image: -moz-linear-gradient(top, #856a68 50%, #755a58 51%); /* custom */
+  background-image: -moz-linear-gradient(top, #856a68 50%, #755a58 51%);
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#856a68), color-stop(51%,#755a58));
   background-image: -webkit-linear-gradient(top, #856a68 50%,#755a58 51%);
   background-image: -o-linear-gradient(top, #856a68 50%,#755a58 51%);
-  background-image: linear-gradient(to bottom, #856a68 50%, #755a58 51%);/* custom */
+  background-image: linear-gradient(to bottom, #856a68 50%, #755a58 51%);
+
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff6d5b62', endColorstr='#ff604e55', GradientType=0);
-  border: 1px solid #3e3337;
+      old custom ends */
+
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
