@@ -642,16 +642,16 @@ h3 {
   line-height: 40px;
 }
 h1 {
-  font-size: 38.5px;
+  font-size: 30.5px; /* custom - original 38.5px */
 }
 h2 {
-  font-size: 31.5px;
+  font-size: 25.5px;
 }
 h3 {
-  font-size: 24.5px;
+  font-size: 20.5px;
 }
 h4 {
-  font-size: 17.5px;
+  font-size: 16.5px;
 }
 h5 {
   font-size: 14px;
@@ -3600,7 +3600,7 @@ input[type="submit"].btn.btn-mini {
   margin-bottom: 0;
   padding: 4px 14px;
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
+  font-size: 14px; /* custom original 13px */
   font-weight: normal;
   line-height: 1;
   -webkit-border-radius: 15px;
