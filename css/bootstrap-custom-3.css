@@ -4591,7 +4591,7 @@ a.thumbnail:focus {
   left: 0;
   z-index: 1010;
   display: none;
-  max-width: 276px;
+/*  max-width: 276px; custom */
   padding: 1px;
   text-align: left;
   background-color: #ffffff;

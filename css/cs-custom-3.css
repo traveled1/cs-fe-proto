@@ -153,6 +153,48 @@
 /*******************************************/
 /****  for Company Deal page         *******/
 
+/** for Company/Store Description  **/
+
+#store-hero-section {
+	border: 1px solid #ccc;
+	background: #fefefe; 
+	height: auto;
+	width: 800px;
+	padding: 10px;
+	margin: 0 auto;
+	float: none;	
+	-moz-border-radius: 6px 6px 6px 6px;
+	-webkit-border-radius: 6px 6px 6px 6px;
+	border-radius: 6px;
+	box-shadow: 4px 5px 5px #aaa;	
+}
+
+
+.store-hero-logo {
+}
+
+.store-hero-desc {
+	line-height: 1em;
+	font-size: 13px;
+	color: #666;
+}
+.short-text {
+    overflow: hidden;
+    height: 8em;
+}
+ 
+.full-text{
+    height: auto;
+}
+
+
+/** for Coupon tiles **/
+
+.cpn-title {
+	text-transform:uppercase;
+	color: #577;
+}
+
 .cpn-desc {
 	font-size: 13px;
 	margin: 0 0 0 5px;
@@ -216,7 +258,7 @@
 	
 }
 
-.does-it-work hr{
+hr{
 	border: 0;
 	height: 1px;
 	background: #777;
@@ -245,7 +287,7 @@
 	font-size: 30px;
 	font-weight: bold;
 	font-style: italic;
-	margin: 10px auto 10px auto;
+	margin: 30px auto 10px auto;
 	text-align: center;
 	color: #555;
 }
@@ -257,15 +299,56 @@
 .last-used {
 	font-size: 12px;
 	margin: 10px 0 0 0;
+	color: #688;
+	float: left;
 }
 
-hr{
+.section-header hr {
   border: 0;
   height: 1px;
-  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background: #777;
+  background-image: -webkit-linear-gradient(left, #ccc, #777, #ccc); 
+  background-image:    -moz-linear-gradient(left, #ccc, #777, #ccc); 
+  background-image:     -ms-linear-gradient(left, #ccc, #777, #ccc); 
+  background-image:      -o-linear-gradient(left, #ccc, #777, #ccc); 
 	margin: 15px 0 15px 0;
+}
+
+/** For clip popup **/
+
+.clip-popup-title {
+	font-size: 16px;
+}
+
+
+.clip-popup {
+	width: 400px;
+	background: #fff9c6;
+}
+
+.clip-popup hr {
+	margin: 2px 0 2px 0;
+}
+
+
+.clip-popup .icon-remove{
+	float: right;
+	cursor: hand; 
+	cursor: pointer;	
+}
+
+.sharing {
+	float: left;
+	vertical-align: middle;
+	padding: 0;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 10px 0 0 10px;
+	color: #577;
+}
+
+.sharing img {
+	width: 20px;
+	height: 20px;
 }
 

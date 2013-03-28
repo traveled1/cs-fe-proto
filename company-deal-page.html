@@ -16,6 +16,8 @@
     <!-- Le styles -->
     <link href="css/bootstrap-custom-3.css" rel="stylesheet">
 		<link href="css/cs-custom-3.css" rel="stylesheet">
+	  <link rel="stylesheet" type="text/css" href="turn/turn.css">
+		
     <style type="text/css">
       body {
 /*        padding-top: 50px; */
@@ -115,7 +117,20 @@
       </div>
     </div>
 
+
     <div class="container" >
+
+					<div id="store-hero-section" class="row border-overlay">
+							<div class="store-hero-logo span2">
+								<img src="img/bed_bath_beyond.jpg">
+							</div>
+							<div class="store-hero-desc span6 short-text">
+						Bed Bath & Beyond Inc., together with its subsidiaries, operates a chain of retail stores. It sells a range of domestic merchandise, such as bed linens and related items, bath items, and kitchen textiles; and home furnishings, including kitchen and tabletop items, fine tabletop, basic housewares, general home furnishings, consumables, and certain juvenile products. The company also offers giftware, household products, and health and beauty care items; and infant and toddler merchandise. Bed Bath & Beyond Inc. operates stores under the names of Bed Bath & Beyond (BBB), Christmas Tree Shops (CTS), Harmon and Harmon Face Values (Harmon), and buybuy BABY. In addition, it distributes textile products, amenities, and other goods to customers in the hospitality, cruise line, food service, healthcare, and other industries. As of November 24, 2012, the company had 1,466 stores, including 1,003 Bed Bath & Beyond stores; 264 stores under the names of World Market, Cost Plus World Market, or World Market Stores; 74 stores under the names of Christmas Tree Shops or andThat!; 78 buybuy BABY stores; and 47 stores under the names of Harmon or Harmon Face Values in 50 states, the District of Columbia, Puerto Rico, and Canada. Bed Bath & Beyond Inc. was founded in 1971 and is headquartered in Union, New Jersey. 
+							</div>
+							<span class="show-more">
+					        <a href="#">Show more</a>
+								</span>
+					</div> <!--store-hero-section -->
 
 				<div class="section-header">
 			   	Popular Coupons and Sales
@@ -124,7 +139,7 @@
 
 			<div class="row cpn-row">
 					<div class="span5 page-curl shadow-bottom cpn-clip">
-						<h4>20% Additional Discount on Clearance Items - Today Only</h4>
+						<h4 class="cpn-title">20% Additional Discount on Clearance Items - Today Only</h4>
 						<div class="does-it-work">
 							<div class="does-it-work-rating">
 								75% 
@@ -137,14 +152,35 @@
 							<div class="does-it-work-btn-container">
 								<a class="btn btn-mini btn-success does-it-work-btn"><i class="icon-thumbs-up"></i> </a><a class="btn btn-mini btn-danger does-it-work-btn"> <i class="icon-thumbs-down"></i> </a>
 							</div>
-						</div>
+						</div> 
 						<div class="cpn-desc">Bed Bath and Beyond: 20% Off Any Single Item In Store When You Sign Up for Emails. Bed Bath & Beyond will send you an email with a printable coupon to use in store.
 						</div>
+						
 						<div class="last-used">
 							Last used 1 hr ago
-							<a class="btn btn-large btn-primary cpn-activate">Show Code</a>
 						</div>
+							<a id="clip-this-1" class="btn btn-large btn-primary cpn-activate" rel="popover" data-content='<i class="icon-remove"></i><div class="clip-popup-title">Clip This Coupon and Go to the Store </div> <hr> <div> It is simple content for now </div> <div> It is simple content for now line 2 line 2 line 2 line 2 line 2 line 2 </div> <a class="btn btn-small btn-info" href="http://www.gap.com" target="_blank">Clip This!</a>' data-original-title="">Clip This!</a>
 
+<!-- simple Clip This! button to open new window							
+							<a class="btn btn-large btn-primary cpn-activate" href="http://www.gap.com" target="_blank">Clip This!</a> 
+-->
+<!--	If want to force a Pop-up window instead via JavaScript
+						<A class="btn btn-large btn-primary cpn-activate" HREF="http://www.gap.com" onClick="popup = window.open('http://www.gap.com', 'PopupPage', 'scrollbars=yes,resizable=yes'); return false" target="_blank">Clip This!</a> -->
+
+							<div class="sharing">
+								<span>
+									Share It:
+		 							<a href="#"> <img src="img/envelope-icon-black.png" alt="Email to friends"></a>
+		 							<a href="#"> <img src="img/facebook-icon-black.png" alt="Share with Facebook friends"></a>
+		 							<a href="#"><img src="img/twitter-icon-black.png" alt="Tweet it on Twitter"></a>
+								</span>
+								&nbsp; &nbsp;
+								<span>
+									Save It:
+									<a href="#"> <img src="img/floppy-black.png" alt="Save For Later"></a>
+							</div>
+
+	
 					</div>
 					<div class="span5 page-curl shadow-bottom cpn-clip">
 						<h4>20% Additional Discount on Clearance Items</h4>
@@ -202,14 +238,77 @@
 			</div>
 
 
-
 <!-- ==============================================
 		 JavaScript below! 															-->
 
 <!-- jQuery via Google + local fallback, see h5bp.com -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.js"><\/script>')</script>
 <!-- Bootstrap jQuery plugins compiled and minified -->
     <script src="js/bootstrap.js"></script>
+		<script src="js/jquery-ui-1.10.2.custom.js"></script>
+		
+<!-- Main Java Script Area for this page -->
+		<script>  
+		$(function () { 
+		
+			/*
+			var isVisible = false;
+			var clickedAway = false;
+			*/
+			
+			$(".cpn-activate").popover({
+				trigger: 'click',
+				placement: 'top',
+				html: true,
+				template: '<div class="popover clip-popup"><div class="arrow"></div><div class="popover-inner"><h3 class="popover-title"></h3><div class="popover-content"><p></p></div></div></div>'
+			});
+			
+			$(".cpn-activate").click(function(e) {
+			  //      $(this).popover('show'); 
+			        clickedAway = false;
+			        isVisible = true;
+							e.preventDefault();
+			});
+			
+			$(document).click(function(e) {
+			  if(isVisible & clickedAway)
+			  {
+			    $('.cpn-activate').popover('hide');
+			    isVisible = clickedAway = false;
+			  }
+			  else
+			  {
+			    clickedAway = true;
+			  }
+			});		
+			
+			// For showing more or less text
+			$(".show-more a").click(function() {
+			    var $link = $(this);
+			    var $content = $link.parent().prev("div.store-hero-desc");
+			    var linkText = $link.text().toUpperCase();
+			    $link.text(getShowLinkText(linkText));
+					$content.toggleClass("short-text, full-text", 500);
+					
+			    //$("short-text").toggleClass("short-text", "full-text", 1000);
+			    //$("full-text").switchClass("full-text","short-text", 1000);					
+			    return false;
+			});
+ 
+			function getShowLinkText(currentText){
+			    var newText = '';
+     
+			    if (currentText === "SHOW MORE") {
+			        newText = "Show less";
+			    } else {
+			        newText = "Show more";
+			    }
+     
+			    return newText;
+			}
+			
+		});  
+		</script> 	
   </body>
 </html>
