@@ -211,7 +211,8 @@ body {
   color: #333333;
 /*  background-color: #f8f7f5; custom snow-white color */
 
-  background-color: #f8f9f7; /* custom greenish - currently set at different background */
+/*  background-color: #f8f9f7; /* custom greenish - currently set at different background */
+    background-color: #f8f5f5; /* custom warmish - currently set at different background   */
 }
 a {
   color: #0088cc;
@@ -5172,12 +5173,13 @@ a.thumbnail:focus {
   bottom: 0;
   padding: 15px;
   background: #333333;
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(70, 70, 70, 0.75);   /* custom - make it slightly lighter */
 }
 .carousel-caption h4,
 .carousel-caption p {
   color: #ffffff;
-  line-height: 20px;
+  line-height: 16px;   /* custom */
+
 }
 .carousel-caption h4 {
   margin: 0 0 5px;

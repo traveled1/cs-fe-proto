@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53801130-7e4e-4acf-8d9e-a7e0f45f636e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/fe-proto.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/company-deal-page-1.html" afterPath="$PROJECT_DIR$/company-deal-page-1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap-custom-3.css" afterPath="$PROJECT_DIR$/css/bootstrap-custom-3.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/cs-custom-3.css" afterPath="$PROJECT_DIR$/css/cs-custom-3.css" />
     </list>
@@ -29,19 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="company-deal-page-1.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="company-deal-page-1.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/company-deal-page-1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="158" column="0" selection-start="5688" selection-end="5688" vertical-scroll-proportion="-98.75">
+            <state line="338" column="19" selection-start="13749" selection-end="13749" vertical-scroll-proportion="0.24743444">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap-custom-3.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="bootstrap-custom-3.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/bootstrap-custom-3.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="217" column="44" selection-start="3746" selection-end="3746" vertical-scroll-proportion="0.59534204">
+            <state line="5510" column="30" selection-start="131111" selection-end="131120" vertical-scroll-proportion="-5.553571">
               <folding />
             </state>
           </provider>
@@ -50,7 +44,7 @@
       <file leaf-file-name="cs-custom-3.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/cs-custom-3.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="174" column="4" selection-start="3497" selection-end="3497" vertical-scroll-proportion="0.0">
+            <state line="45" column="17" selection-start="584" selection-end="584" vertical-scroll-proportion="-8.392858">
               <folding />
             </state>
           </provider>
@@ -69,16 +63,17 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/company-deal-page-1.html" />
-        <option value="$PROJECT_DIR$/css/cs-custom-3.css" />
         <option value="$PROJECT_DIR$/css/bootstrap-custom-3.css" />
+        <option value="$PROJECT_DIR$/css/cs-custom-3.css" />
+        <option value="$PROJECT_DIR$/company-deal-page-1.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="874" />
+    <option name="x" value="1449" />
+    <option name="y" value="-76" />
+    <option name="width" value="1386" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -241,14 +236,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
+    <frame x="1449" y="-76" width="1386" height="1060" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21664275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22537313" sideWeight="0.9968085" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -316,23 +311,51 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/cs-custom-3.css">
+    <entry file="file://$PROJECT_DIR$/Archive/BS-CUSTOMIZE-COMPLETE/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="174" column="4" selection-start="3497" selection-end="3497" vertical-scroll-proportion="0.0">
+        <state line="41" column="51" selection-start="1381" selection-end="1383" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/company-deal-page-1.html">
+    <entry file="file://$PROJECT_DIR$/Archive/BS-CUSTOMIZE-BEGIN/tabs-pills.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="0" selection-start="5688" selection-end="5688" vertical-scroll-proportion="-98.75">
+        <state line="41" column="74" selection-start="1451" selection-end="1451" vertical-scroll-proportion="0.3249715">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../gs/proto/gs-fe-proto-1/fitness-level.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.33707866">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../gs/proto/gs-fe-proto-1/css/gs-wizard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="57" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.4595186">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap-custom-3.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="217" column="44" selection-start="3746" selection-end="3746" vertical-scroll-proportion="0.59534204">
+        <state line="5510" column="30" selection-start="131111" selection-end="131120" vertical-scroll-proportion="-5.553571">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/cs-custom-3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="17" selection-start="584" selection-end="584" vertical-scroll-proportion="-8.392858">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company-deal-page-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="338" column="19" selection-start="13749" selection-end="13749" vertical-scroll-proportion="0.24743444">
           <folding />
         </state>
       </provider>
