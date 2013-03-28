@@ -645,13 +645,13 @@ h1 {
   font-size: 30.5px; /* custom - original 38.5px */
 }
 h2 {
-  font-size: 25.5px;
+  font-size: 25.5px;  /* custom */
 }
 h3 {
-  font-size: 20.5px;
+  font-size: 20.5px;      /* custom */
 }
 h4 {
-  font-size: 16.5px;
+  font-size: 16.5px;      /* custom */
 }
 h5 {
   font-size: 14px;
@@ -6227,7 +6227,7 @@ button.close {
   .nav-collapse .dropdown-menu a {
     padding: 9px 15px;
     font-weight: bold;
-    color: #000000;
+    color: #fff;        /* custom */
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
