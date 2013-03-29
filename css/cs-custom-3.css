@@ -59,7 +59,8 @@
 
 .footer {
 		text-align: center;
-		margin: 30px 0 10px 0;
+		margin: 30px auto 10px auto;
+    width: 75%;
 }
 
 
@@ -166,19 +167,19 @@
 	box-shadow: 0 -10px 12px rgba(0, 0, 0, 0.5);
 }
 
-.cs-main-container {
-}
-
 /*******************************************/
 /****  for Company Deal page         *******/
 
 /** for Company/Store Description  **/
 
+.cs-main-container {
+}
 
 #store-hero-section {
     height: 280px;
     margin: 0 auto;
     float: none;
+    width: 95%;
 }
 
 #store-hero-carousel {
@@ -289,7 +290,8 @@
 
 
 .cpn-row {
-	margin: 0px auto 0px auto;
+	margin: 0 auto;
+    width: 95%;
 	clear: both;
 }
 

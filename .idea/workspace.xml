@@ -22,10 +22,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="company-deal-page-1.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="company-deal-page-1.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/company-deal-page-1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="26" selection-start="1959" selection-end="1959" vertical-scroll-proportion="0.8233216">
+            <state line="341" column="19" selection-start="14091" selection-end="14091" vertical-scroll-proportion="-9.980769">
               <folding />
             </state>
           </provider>
@@ -40,10 +40,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cs-custom-3.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="cs-custom-3.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/cs-custom-3.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="15" selection-start="831" selection-end="831" vertical-scroll-proportion="-28.392857">
+            <state line="62" column="13" selection-start="960" selection-end="960" vertical-scroll-proportion="0.3837472">
               <folding />
             </state>
           </provider>
@@ -63,8 +63,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/css/bootstrap-custom-3.css" />
-        <option value="$PROJECT_DIR$/css/cs-custom-3.css" />
         <option value="$PROJECT_DIR$/company-deal-page-1.html" />
+        <option value="$PROJECT_DIR$/css/cs-custom-3.css" />
       </list>
     </option>
   </component>
@@ -206,6 +206,13 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -345,16 +352,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/cs-custom-3.css">
+    <entry file="file://$PROJECT_DIR$/company-deal-page-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="15" selection-start="831" selection-end="831" vertical-scroll-proportion="-28.392857">
+        <state line="341" column="19" selection-start="14091" selection-end="14091" vertical-scroll-proportion="-9.980769">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/company-deal-page-1.html">
+    <entry file="file://$PROJECT_DIR$/css/cs-custom-3.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="26" selection-start="1959" selection-end="1959" vertical-scroll-proportion="0.8233216">
+        <state line="62" column="13" selection-start="960" selection-end="960" vertical-scroll-proportion="0.3837472">
           <folding />
         </state>
       </provider>
