@@ -24,7 +24,7 @@
 }
 
 #stripheader1 {
-	height: 50px;
+	height: 60px;
 	padding: 10px 30px 0 0;
 	text-align: right;
 }
@@ -37,9 +37,10 @@
 
 #headercslogo {
 	float:left;
-	height: 38px;
-	width: 200px;
+	height: 60px;
+	max-width: 200px;
   padding: 0 0 0 40px;
+    margin: 0;
 }
 
 #headersocial a {
@@ -50,7 +51,9 @@
 #stripheader1 #cs-tagline {
 	float:left;
 	font-style: italic;
-	color: #555;
+	color: #57b;
+    margin: 13px 0 0 0;
+    font-weight: bold;
 }
 
 
