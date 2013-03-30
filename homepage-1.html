@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="utf-8">
+  <title>Bootstrap 101: Customize Fonts &amp; Colors</title>
+
+  <meta name="description" content="Need more description here">
+  <meta name="author" content="Ed Komo for ClipSmarter">
+
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Google Webfonts -->
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+
+  <!-- Le styles -->
+  <link href="css/bootstrap-custom-3.css" rel="stylesheet">
+  <link href="css/cs-custom-3.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="turn/turn.css">
+
+  <style type="text/css">
+    body {
+      /*        padding-top: 50px; */
+      padding-bottom: 40px;
+    }
+
+    hgroup h1, hgroup h2, hgroup h3 {
+      line-height: 1.1;
+    }
+
+    hgroup h1 small {
+      margin-top: 6px;
+      line-height: 1.5;
+      display: block;
+    }
+  </style>
+  <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+
+  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- Le fav and touch icons -->
+  <!-- Commented out - update these with your own files -->
+  <!--
+    <link rel="shortcut icon" href="ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+  -->
+
+<body>
+
+<div id="stripheader1" class="row">
+  <img id="headercslogo" src="img/clipsmarter-logo-1.png" alt="GoSmartr Logo">
+  <span id="cs-tagline"> Beta </span>
+  <a href="#">How It Works</a>
+  <a href="#">Submit a Coupon</a>
+  <a href="#">My Account</a>
+  <a href="#">Sign Up</a>
+  <a href="#">Refer Friends</a>
+					<span id="headersocial">
+						<a href="#" class="fb"> <img src="img/facebook.png"></a>
+						<a href="#" class="tw"><img src="img/twitter.png"></a>
+					</span>
+</div>
+
+
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <!--          <a class="brand" href="index.html">ClipSmarter <img src="img/glyphicons_288_scissors.png" height="14" width="14">  </a> -->
+
+      <div class="nav-collapse">
+        <form class="navbar-search">
+          <input type="text" class="search-query" placeholder="Search for store sale &amp; coupons">
+        </form>
+        <ul class="nav nav-pills pull-right">
+          <li><a href="#"><i class="icon-tags icon-white"></i> Top Coupons/Deals</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="icon-list icon-white"></i> Browse Stores
+              <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">By Category</a></li>
+              <li><a href="#">Alphabetically</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="icon-briefcase icon-white"></i> My Clips
+              <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">50% off Gap Kids</a></li>
+              <li><a href="#">$9.95 GoDaddy Domain</a></li>
+              <li class="divider"></li>
+              <li><a href="#">See all ...</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="icon-heart icon-white"></i> My Fav Stores
+              <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Gap</a></li>
+              <li><a href="#">One Kings Lane</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </div>
+</div>
+
+
+<div class="cs-main-container row-fluid">
+
+  <div class="span12">
+    <img class="home-hero-img" src="img/Beautiful-Colorful-Barbie-Shop-Interior-by-Slade-Architecture-570x380.jpg"
+         alt="homepage-hero-image">
+
+    <div class="home-hero-input-area">
+      <div class="home-hero-text"> Test Test Test</div>       <br><br>
+      <form class="form-inline">
+          <!-- <label>Search for Store Coupons</label> -->
+          <span class="home-hero-input-border-outer">  <input type="text" class="span4" placeholder="Search for Store Coupons ..."></span>
+        <span class="home-hero-input-border-outer"><button type="submit" class="btn home-hero-btn"><i class="icon-search"></i>&nbsp; SEARCH</button> </span>
+      </form>
+      <label>OR </label>
+      <br>
+      <form class="form-inline">
+          <!-- <label>Search for Store Coupons</label> -->
+          <span class="home-hero-input-border-outer">  <input type="text" class="span4" placeholder="Search for Store Coupons ..."></span>
+        <span class="home-hero-input-border-outer"><button type="submit" class="btn home-hero-btn"><i class="icon-search"></i>&nbsp; SEARCH</button> </span>
+      </form>
+     </div>
+  </div>
+
+
+</div>
+<!-- cs-main-container -->
+
+
+<div class="clear-float">
+</div>
+
+<div class="row footer">
+  <div class="span3">
+    <a class="footer-header" href="#">Help</a><br>
+    <a href="#">Use a Coupon</a><br>
+    <a href="#">Submit a Coupon</a><br>
+    <a href="#">Manage Your Account</a>
+  </div>
+  <div class="span3">
+    <a class="footer-header" href="#">Contact Us</a><br>
+    <a href="#">Customer Support</a><br>
+    <a href="#">Advertise with Us</a><br>
+    <a href="#">Media Relations</a>
+  </div>
+  <div class="span3">
+    <a class="footer-header" href="#">About Us</a><br>
+    <a href="#">Our History</a><br>
+    <a href="#">Our Team</a><br>
+    <a href="#">Press</a><br>
+  </div>
+</div>
+
+
+<!-- ==============================================
+		 JavaScript below! 															-->
+
+<!-- jQuery via Google + local fallback, see h5bp.com -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-1.9.1.js"><\/script>')</script>
+<!-- Bootstrap jQuery plugins compiled and minified -->
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery-ui-1.10.2.custom.js"></script>
+
+<!-- Main Java Script Area for this page -->
+<script>
+  $(function () {
+
+    /*
+     var isVisible = false;
+     var clickedAway = false;
+     */
+
+    $(".cpn-activate").popover({
+      trigger:'click',
+      placement:'top',
+      html:true,
+      template:'<div class="popover clip-popup"><div class="arrow"></div><div class="popover-inner"><h3 class="popover-title"></h3><div class="popover-content"><p></p></div></div></div>'
+    });
+
+    $(".cpn-activate").click(function (e) {
+      //      $(this).popover('show');
+      clickedAway = false;
+      isVisible = true;
+      e.preventDefault();
+    });
+
+    $(document).click(function (e) {
+      if (isVisible & clickedAway) {
+        $('.cpn-activate').popover('hide');
+        isVisible = clickedAway = false;
+      }
+      else {
+        clickedAway = true;
+      }
+    });
+
+    // For showing more or less text
+    $(".show-more a").click(function () {
+      var $link = $(this);
+      var $content = $link.parent().prev("div.store-hero-desc");
+      var linkText = $link.text().toUpperCase();
+      $link.text(getShowLinkText(linkText));
+      $content.toggleClass("short-text, full-text", 500);
+
+      //$("short-text").toggleClass("short-text", "full-text", 1000);
+      //$("full-text").switchClass("full-text","short-text", 1000);
+      return false;
+    });
+
+    function getShowLinkText(currentText) {
+      var newText = '';
+
+      if (currentText === "SHOW MORE") {
+        newText = "Show less";
+      } else {
+        newText = "Show more";
+      }
+
+      return newText;
+    }
+
+  });
+</script>
+</body>
+</html>

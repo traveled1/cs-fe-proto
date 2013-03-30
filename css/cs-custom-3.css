@@ -446,3 +446,78 @@ hr{
 	height: 20px;
 }
 
+
+/** For Homepage **/
+.home-hero-img {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+.home-hero-input-area {
+    position: absolute;
+    top: 250px;
+    left: 75%;
+    width: 1000px;
+    margin-left: -500px;
+    z-index: 2;
+
+}
+
+.home-hero-input-area label {
+    font-size: 30px !important;
+    color: white;
+    font-weight: bold;
+    text-shadow:  0px 0px 70px black, 0px 0px 20px #777, 0 0 .1em black;
+
+}
+
+.home-hero-input-border-outer {
+/*    border: 1px solid #444; */
+    border-radius: 4px;
+    padding: 8px 6px 12px 6px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow:   0px 0px 30px #444, 0 0 .1em #777;
+    margin-left: -5px;
+/*
+    zoom: 1;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    */
+}
+
+.home-hero-btn {
+    background-color: #ffcc00;
+    background-image: -moz-linear-gradient(top, #ffcc00, #ee8800);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffcc00), to(#ee8800));
+    background-image: -webkit-linear-gradient(top, #ffcc00, #ee8800);
+    background-image: -o-linear-gradient(top, #ffcc00, #ee8800);
+    background-image: linear-gradient(to bottom, #ffcc00, #ee8800);
+    border-color: #ffee00 #ffee00 #b3a700;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+
+
+}
+
+.home-hero-input-area input {
+    font-size: 16px;
+    color: #444;
+    border-radius: 3px;
+
+    /*
+    border-radius: 10px;
+    border: 3px solid #533; */
+/*    border: 5px black; */
+/*    box-shadow:   0px 0px 30px #777, 1px 1px #ccc, -1px -1px #666, -3px 0 #555, 0 3px #555,
+          3px 0 #555, 0 -3px #555; */
+
+}
+
+
+.home-hero-text {
+    color: white;
+    text-shadow:  0px 0px 90px black, 0px 0px 30px #777, 0 0 .1em black;
+/*    text-shadow: 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+    font-size: 60.5px;
+    font-weight: bold;
+}
+
