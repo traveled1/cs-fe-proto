@@ -99,7 +99,7 @@
               <i class="icon-briefcase icon-white"></i> My Clips
               <b class="caret"></b>
             </a>
-            <ul class="dropdown-menu" role="menu">
+            <ul id="nav-saved-cpn" class="dropdown-menu" role="menu">
               <li><a href="#">50% off Gap Kids</a></li>
               <li><a href="#">$9.95 GoDaddy Domain</a></li>
               <li class="divider"></li>
@@ -246,7 +246,7 @@
       &nbsp; &nbsp;
 								<span>
 									Save It:
-									<a href="#"> <img src="img/floppy-black.png" alt="Save For Later"></a>
+									<a id="save-this-23"  class="save-it-link" href="#"> <img src="img/floppy-black.png" alt="Save For Later"></a>
     </div>
   </div>
 
@@ -289,7 +289,7 @@
       &nbsp; &nbsp;
 								<span>
 									Save It:
-									<a href="#"> <img src="img/floppy-black.png" alt="Save For Later"></a>
+									<a class="save-it-link" href="#"> <img src="img/floppy-black.png" alt="Save For Later"></a>
     </div>
   </div>
 </div>
@@ -428,7 +428,17 @@
       return newText;
     }
 
+    // Effect on Save-It
+    $(".save-it-link").click(function () {
+      $(this).parent().parent().parent().effect("transfer", {
+        to: "#headersocial",
+        className:"ui-effects-transfer"
+      }, 500, null);
+      return false;
+
+    });
   });
+
 </script>
 </body>
 </html>
