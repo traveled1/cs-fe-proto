@@ -195,7 +195,7 @@
 }
 
 /* The following custom settings makes the images fill the carousel container div */
-.carousel-inner .item {
+#store-hero-carousel .carousel-inner .item {
     overflow: hidden;
     width: auto;
     height: 260px;
@@ -442,6 +442,27 @@ hr {
 
 /** For Homepage **/
 
+#home-hero-carousel {
+    /*    width: 560px; */
+    height: 500px;
+}
+
+
+
+/* The following custom settings makes the images fill the carousel container div */
+#home-hero-carousel .carousel-inner .item {
+    overflow: hidden;
+    width: auto;
+    height: 500px;
+}
+
+#home-hero-carousel img {
+    width: 100%;
+}
+
+
+/*
+
 div.home-hero-img-container {
     width: 1200px;
     height: 600px;
@@ -454,10 +475,11 @@ div.home-hero-img-container {
 
 .home-hero-img {
     position: relative;
-    width: 99%; /* for IE 6 */
+    width: 99%;
     margin: 0 auto;
     height: 600px;
 }
+*/
 
 .home-hero-input-area {
     position: absolute;
