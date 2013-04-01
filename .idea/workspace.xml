@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53801130-7e4e-4acf-8d9e-a7e0f45f636e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/company-deal-page-1.html" afterPath="$PROJECT_DIR$/company-deal-page-1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/cs-custom-3.css" afterPath="$PROJECT_DIR$/css/cs-custom-3.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage-1.html" afterPath="$PROJECT_DIR$/homepage-1.html" />
     </list>
@@ -24,10 +22,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="company-deal-page-1.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="company-deal-page-1.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/company-deal-page-1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="435" column="10" selection-start="16991" selection-end="16991" vertical-scroll-proportion="0.7178003">
+            <state line="129" column="2" selection-start="4557" selection-end="6268" vertical-scroll-proportion="-10.041667">
               <folding />
             </state>
           </provider>
@@ -42,10 +40,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homepage-1.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="homepage-1.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/homepage-1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="79" selection-start="4479" selection-end="4479" vertical-scroll-proportion="-8.125">
+            <state line="127" column="0" selection-start="4551" selection-end="4551" vertical-scroll-proportion="0.32561505">
               <folding />
             </state>
           </provider>
@@ -54,7 +52,7 @@
       <file leaf-file-name="cs-custom-3.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/cs-custom-3.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="438" column="25" selection-start="9272" selection-end="9272" vertical-scroll-proportion="0.0">
+            <state line="464" column="12" selection-start="9770" selection-end="9770" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -74,14 +72,14 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/css/bootstrap-custom-3.css" />
-        <option value="$PROJECT_DIR$/homepage-1.html" />
-        <option value="$PROJECT_DIR$/css/cs-custom-3.css" />
         <option value="$PROJECT_DIR$/company-deal-page-1.html" />
+        <option value="$PROJECT_DIR$/css/cs-custom-3.css" />
+        <option value="$PROJECT_DIR$/homepage-1.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="6" />
+    <option name="x" value="2" />
     <option name="y" value="22" />
     <option name="width" value="1434" />
     <option name="height" value="874" />
@@ -257,7 +255,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="22" width="1434" height="874" extended-state="0" />
+    <frame x="2" y="22" width="1434" height="874" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -408,23 +406,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homepage-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="79" selection-start="4479" selection-end="4479" vertical-scroll-proportion="-8.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/cs-custom-3.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="438" column="25" selection-start="9272" selection-end="9272" vertical-scroll-proportion="0.0">
+        <state line="464" column="12" selection-start="9770" selection-end="9770" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/company-deal-page-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="435" column="10" selection-start="16991" selection-end="16991" vertical-scroll-proportion="0.7178003">
+        <state line="129" column="2" selection-start="4557" selection-end="6268" vertical-scroll-proportion="-10.041667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homepage-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="0" selection-start="4551" selection-end="4551" vertical-scroll-proportion="0.32561505">
           <folding />
         </state>
       </provider>

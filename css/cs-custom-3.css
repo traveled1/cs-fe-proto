@@ -436,20 +436,33 @@ hr {
 /* for jquery ui transfer effect */
 
 .ui-effects-transfer {
-  border: 2px dotted #666 ;
+  border: 1px solid #888 ;
 }
 
 
 /** For Homepage **/
+
+div.home-hero-img-container {
+    width: 1200px;
+    height: 600px;
+    background-image: url("../img/Beautiful-Colorful-Barbie-Shop-Interior-by-Slade-Architecture-570x380.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}​
+
+
 .home-hero-img {
     position: relative;
-    width: 100%; /* for IE 6 */
+    width: 99%; /* for IE 6 */
+    margin: 0 auto;
+    height: 600px;
 }
 
 .home-hero-input-area {
     position: absolute;
     top: 250px;
-    left: 70%;
+    left: 65%;
     width: 1000px;
     margin-left: -500px;
     z-index: 2;
